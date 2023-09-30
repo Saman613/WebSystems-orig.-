@@ -1,14 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body{
+            background-color: pink;
+        }
+        h1{
+            width: 800px;
+            color: black;
+            background-color: palevioletred;
+            font-size: 60px;
+            font-weight: bolder;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 10px 10px;
+            border: 10px;
+            border-style: groove;
+            border-color: plum;
+            border-radius: 30px;
+
+        }
+        .ulcon{
+            width: 600px;
+            height: 350px;
+            background:palevioletred;
+            border: 10px;
+            border-style: groove;
+            border-color: plum;
+            border-radius: 30px;
+            position: relative;
+            top: -10px;
+            color: black;
+            font-weight: bolder;
+            font-size: 20px;
+            font-style: oblique;
+            padding: 15px 15px;
+            border-radius: 50px;
+            letter-spacing: 3px;
+            text-shadow: rgb(0,0,0,0.5);
+        }
+        h1:hover{
+            transform: scale(1.1);
+        }
+        .ulcon:hover{
+            transform: scale(1.1);
+        }
+        ul li{
+            background-color: pink;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            font-weight: bolder;
+            font-style: oblique;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>THIS IS THE INDEX.HTML FILE</title>
 </head>
 <body>
-    <a href="./Activity1.html">Activity 1</a>
-    <br>
-    <a href="./Activity3.html">Activity 3</a>
+    <center>
+        <h1>Table of Activities</h1><br><br>
+        <div class="ulcon">
+            <ul>
+                <li><a href="./Activity1.html">Activity 1(HTML TAGS)</a></li><br>
+                <li><a href="./index.html">Activity 2(Create the link of Act1 to index.html file)</a></li><br>
+                <li><a href="./Activity3.html">Activity 3(CSS Properties)</a></li><br>
+            </ul>
+        </div>
+    </center>
 </body>
 </html>
