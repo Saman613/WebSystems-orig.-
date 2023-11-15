@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: oldlace;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Displaying Valid Javascript Variable in HTML Page</title>
+</head>
+<body>
+    <a href="./index.html">Go Back to Index</a><br><br>
+    <h1 align="center">Displaying Valid Javascript Variable in HTML Page</h1><hr>
+
+    <p>Javascript Variables</p>
+    <hr>
+    <p id="FirstName"></p>
+    <script>
+        var fName="Jane";
+        document.getElementById("FirstName").innerHTML=fName;
+    </script>
+    <p id="MiddleName"></p>
+    <script>
+        var mName="Morales";
+        document.getElementById("MiddleName").innerHTML=mName;
+    </script>
+    <p id="LastName"></p>
+    <script>
+        var lName="Doctor";
+        document.getElementById("LastName").innerHTML=lName;
+    </script>
+    <p id="_Address"></p>
+    <script>
+        var add="Osiao, Bacon District, Sorsogon City";
+        document.getElementById("_Address").innerHTML=add;
+    </script>
+    <p id="_Gender"></p>
+    <script>
+        var gen="Female";
+        document.getElementById("_Gender").innerHTML=gen;
+    </script>
+    <p id="_Citizenship"></p>
+    <script>
+        var citizenShip="Filipino";
+        document.getElementById("_Citizenship").innerHTML=citizenShip;
+    </script>
+    <p id="bIrtHdAy"></p>
+    <script>
+        var bday="June 07,2003";
+        document.getElementById("bIrtHdAy").innerHTML=bday;
+    </script>
+    <p id="$age"></p>
+    <script>
+        var num= 20;
+        document.getElementById("$age").innerHTML=num;
+    </script>
+    <p id="$Religion"></p>
+    <script>
+        var rel="Catholic";
+        document.getElementById("$Religion").innerHTML=rel;
+    </script>
+    <p id="$Mobile_Phone"></p>
+    <script>
+        var mobile=09164411484;
+        document.getElementById("$Mobile_Phone").innerHTML=mobile;
+    </script>
+
+<p id="firstName"></p>
+<script>
+    let names=sam;
+    let _names="firstName" + names;
+    document.getElementById("firstName").innerHTML=_names;
+</script>
+</body>
+</html>
